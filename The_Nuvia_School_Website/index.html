@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Nuvia School | Lahore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8fafc;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 42px;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 18px;
+      margin: 15px 0 30px;
+      color: #e5e7eb;
+    }
+    .btn {
+      display: inline-block;
+      background: #d4a24c;
+      color: #0f172a;
+      padding: 14px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #facc15; }
+
+    nav {
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #1f2937;
+      font-weight: 500;
+    }
+    nav a:hover { color: #d4a24c; }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #6b7280;
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      text-align: center;
+    }
+    .card h3 { margin-bottom: 10px; }
+
+    .highlight {
+      background: linear-gradient(135deg, #fff7ed, #fffbeb);
+      border-radius: 20px;
+      padding: 60px 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: 0;
+      border-radius: 16px;
+    }
+
+    footer {
+      background: #0f172a;
+      color: #e5e7eb;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    @media(max-width: 600px) {
+      header h1 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="the nuvia school logo.png" alt="The Nuvia School Logo">
+  <h1>The Nuvia School</h1>
+  <p>Inspiring Excellence • Building Character • Shaping Futures</p>
+  <a href="#admission" class="btn">Apply for Admission</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#classes">Classes</a>
+  <a href="#why">Why Us</a>
+  <a href="#admission">Admission</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About The Nuvia School</h2>
+  <p class="subtitle">A place where learning meets excellence</p>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    The Nuvia School is dedicated to providing high-quality education in a safe,
+    disciplined, and nurturing environment. Our goal is to develop confident,
+    responsible, and academically strong students ready for the future.
+  </p>
+</section>
+
+<section id="classes">
+  <h2>Classes Offered</h2>
+  <p class="subtitle">From early learning to Matric</p>
+  <div class="grid">
+    <div class="card"><h3>Play Group</h3><p>Early childhood foundation</p></div>
+    <div class="card"><h3>Nursery & Prep</h3><p>Learning through activity</p></div>
+    <div class="card"><h3>Primary</h3><p>Class 1 – 5</p></div>
+    <div class="card"><h3>Middle</h3><p>Class 6 – 8</p></div>
+    <div class="card"><h3>Matric</h3><p>Class 9 & 10</p></div>
+  </div>
+</section>
+
+<section id="why" class="highlight">
+  <h2>Why Choose Us</h2>
+  <p class="subtitle">Committed to quality education</p>
+  <div class="grid">
+    <div class="card"><h3>Qualified Teachers</h3><p>Experienced & trained staff</p></div>
+    <div class="card"><h3>Safe Environment</h3><p>Secure and disciplined campus</p></div>
+    <div class="card"><h3>Affordable Fee</h3><p>Quality education for all</p></div>
+    <div class="card"><h3>Modern Teaching</h3><p>Concept-based learning</p></div>
+  </div>
+</section>
+
+<section id="admission">
+  <h2>Admission Form</h2>
+  <p class="subtitle">Download or print the admission form and submit it to the school office</p>
+
+  <div style="max-width:900px;margin:0 auto;">
+    <iframe 
+      src="The Nuvia School Admission Form.pdf" 
+      style="width:100%;height:700px;border:1px solid #e5e7eb;border-radius:12px;"
+      loading="lazy">
+    </iframe>
+
+    <div style="text-align:center;margin-top:20px;">
+      <a href="The Nuvia School Admission Form.pdf" download class="btn">Download Admission Form (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact & Location</h2>
+  <p class="subtitle">Visit or call us anytime</p>
+  <p style="text-align:center;">
+    📍 Near Jumairat Bazar, Najam Park, Shadipura, Lahore<br>
+    📞 0324-8843622<br>
+    ✉️ thenuviaschool@gmail.com
+  </p>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d424.77901186895906!2d74.40646332721373!3d31.600099507140747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1770193544177!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<footer>
+  <p>© 2026 The Nuvia School | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
